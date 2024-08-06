@@ -44,7 +44,7 @@ project:
 site:
   template: article-theme
   actions:
-    - title: poster
+    - title: Poster
       url: presentation/soler-2023-agu-eposter.pdf
       static: true
     # - title: slides
