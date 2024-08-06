@@ -1,35 +1,35 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2023-soler-etal-agu
+  title: Processing potential fields data with Fatiando a Terra
+  description: Invited talk presented in session NS33C-05
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-    # - name: Douglas W. Oldenburg
-    #   affiliation: ubc
-    #   email: doug@eos.ubc.ca
-    #   orcid: 0000-0002-4327-2124
+    - name: Santiago Soler
+      email: ssoler@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0001-9202-5317
+      affiliation:
+        id: ubc
+        name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
+    - name: Lu Li
+      affiliation: The University of Western Australia
+      email: lu.li@uwa.edu.au
+      orcid:  0000-0001-6165-2828
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+
   # banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
+    title: AGU Fall Meeting
+    url: https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1443596
   # license: CC-BY-4.0
   # open_access: true
   # doi: DOI
-  # date: DATE OF PRESENTATION
+  date: December 13, 2023
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
@@ -44,9 +44,9 @@ project:
 site:
   template: article-theme
   actions:
-    # - title: pdf
-    #   url: ARTICLE-NAME.pdf
-    #   static: true
+    - title: poster
+      url: presentation/soler-2023-agu-eposter.pdf
+      static: true
     # - title: slides
     #   url: presentation/SLIDES-NAME.pdf
     #   static: true
